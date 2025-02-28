@@ -1,0 +1,52 @@
+.
+├── backend
+│   ├── Dockerfile
+│   ├── app
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── api
+│   │   │   ├── __pycache__
+│   │   │   │   └── chat.cpython-311.pyc
+│   │   │   └── chat.py
+│   │   ├── main.py
+│   │   └── schemas
+│   │       ├── __pycache__
+│   │       │   └── chat.cpython-311.pyc
+│   │       └── chat.py
+│   └── requirements.txt
+├── directory_structure.txt
+├── frontend
+│   ├── README.md
+│   ├── eslint.config.mjs
+│   ├── next-env.d.ts
+│   ├── next.config.ts
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── public
+│   │   ├── assets
+│   │   ├── file.svg
+│   │   ├── globe.svg
+│   │   ├── next.svg
+│   │   ├── vercel.svg
+│   │   └── window.svg
+│   ├── src
+│   │   ├── app
+│   │   │   ├── favicon.ico
+│   │   │   ├── globals.css
+│   │   │   ├── layout.tsx
+│   │   │   ├── page.module.css
+│   │   │   └── page.tsx
+│   │   ├── components
+│   │   │   ├── AudioRecorder.tsx
+│   │   │   ├── ChatBox.tsx
+│   │   │   ├── ModelResponse.tsx
+│   │   │   └── ScreenCapture.tsx
+│   │   ├── styles
+│   │   │   └── globals.css
+│   │   └── utils
+│   │       ├── apiClient.ts
+│   │       └── mediaUtils.ts
+│   └── tsconfig.json
+└── setup_frontend.sh
+
+16 directories, 34 files
